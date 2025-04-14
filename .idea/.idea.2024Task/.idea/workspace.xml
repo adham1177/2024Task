@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86dfb410-aa10-4ea7-9e8e-18fea94ae14f" name="Changes" comment="" />
+    <list default="true" id="86dfb410-aa10-4ea7-9e8e-18fea94ae14f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2024Task/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2024Task/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultNetworkPrefabs.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultNetworkPrefabs.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Project/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,44 +23,43 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Player/PlayerCubeController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Configuration/NetworkConfig.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Configuration/NetworkPrefabs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Connection/NetworkConnectionManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Core/NetworkManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Logging/NetworkLog.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/SessionOwnerMessage.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/SceneManagement/NetworkSceneManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Spawning/NetworkPrefabHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.multiplayer@124598b145d4/Runtime/Multiplayer/Modules/Connection/Handlers/Connection/GameObjectsNetcodeNetworkHandler.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.services.multiplayer@124598b145d4/Runtime/Multiplayer/Modules/Connection/SessionOptionsExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Shared/Sessions/Events/SessionCreateRequestedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Shared/Sessions/Events/SessionJoinRequestedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Shared/Sessions/Events/SessionListUpdatedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/Shared/Sessions/Events/SessionRefreshRequestedEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/SessionsPanel/SessionListView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/SessionsPanel/SessionView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Project/Scripts/UI/SessionsPanel/SessionsPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.multiplayer.widgets@8f9a1d20b6e1/Runtime/Session/Session/SessionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57091a366cca4e3fb0b7c5c765779341a5000/4e/60ac9fb0/ISession.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/57091a366cca4e3fb0b7c5c765779341a5000/d5/acfdc0be/ISessionInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/cdb9a57ae9fa4fc8a678b4cdacd7341ca5000/c0/7e0317d6/IMultiplayerService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eb0ef51e5908461ca908fdf6b2dbd96646ae00/2b/e1f253cf/ExceptionDispatchInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f1c909cad80d4b24ac89c1095fc1f01b1f9800/99/7875c5c9/LayoutDataStore.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2vipdEs6VRO434Aebg6SO3n6ZNU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Attach to Unity Editor.Attach to Unity Editor.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;devlop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$USER_HOME$/OneDrive/Desktop/Test\2024TaskTemp.exe" />
@@ -95,15 +98,13 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="26496">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="26496" />
+      <option name="pid" />
       <option name="projectPathOnTarget" />
       <option name="runtimes">
-        <list>
-          <MonoRuntime />
-        </list>
+        <list />
       </option>
       <option name="selectedOptions">
         <list />
@@ -119,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744637838978</updated>
-      <workItem from="1744637843041" duration="9632000" />
+      <workItem from="1744637843041" duration="18701000" />
     </task>
     <servers />
   </component>
@@ -140,212 +141,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Connection/NetworkConnectionManager.cs</url>
-          <line>943</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Connection\NetworkConnectionManager.cs" containingFunctionPresentation="Method 'CreateAndSpawnPlayer'">
+          <url>file://$PROJECT_DIR$/Assets/_Project/Scripts/Network/SessionManager.cs</url>
+          <line>118</line>
+          <properties documentPath="C:\UnityProjects\2024Task\Assets\_Project\Scripts\Network\SessionManager.cs" containingFunctionPresentation="Method 'CreateSessionsDataAndNotify'">
             <startOffsets>
-              <option value="42066" />
+              <option value="4484" />
             </startOffsets>
             <endOffsets>
-              <option value="42160" />
+              <option value="4671" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs</url>
-          <line>316</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Messaging\Messages\ConnectionApprovedMessage.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="14172" />
-            </startOffsets>
-            <endOffsets>
-              <option value="14223" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs</url>
-          <line>349</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Messaging\Messages\ConnectionApprovedMessage.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="16059" />
-            </startOffsets>
-            <endOffsets>
-              <option value="16110" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Connection/NetworkConnectionManager.cs</url>
-          <line>903</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Connection\NetworkConnectionManager.cs" containingFunctionPresentation="Method 'HandleConnectionApproval'">
-            <startOffsets>
-              <option value="40231" />
-            </startOffsets>
-            <endOffsets>
-              <option value="40325" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/SceneManagement/NetworkSceneManager.cs</url>
-          <line>2441</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\SceneManagement\NetworkSceneManager.cs" containingFunctionPresentation="Method 'HandleClientSceneEvent'">
-            <startOffsets>
-              <option value="126410" />
-            </startOffsets>
-            <endOffsets>
-              <option value="126504" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/SceneManagement/NetworkSceneManager.cs</url>
-          <line>2334</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\SceneManagement\NetworkSceneManager.cs" containingFunctionPresentation="Method 'HandleClientSceneEvent'">
-            <startOffsets>
-              <option value="120080" />
-            </startOffsets>
-            <endOffsets>
-              <option value="120135" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Core/NetworkManager.cs</url>
-          <line>1309</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Core\NetworkManager.cs" containingFunctionPresentation="Method 'StartClient'">
-            <startOffsets>
-              <option value="54388" />
-            </startOffsets>
-            <endOffsets>
-              <option value="54441" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Core/NetworkManager.cs</url>
-          <line>1084</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Core\NetworkManager.cs" containingFunctionPresentation="Method 'Initialize'">
-            <startOffsets>
-              <option value="46493" />
-            </startOffsets>
-            <endOffsets>
-              <option value="46532" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Configuration/NetworkConfig.cs</url>
-          <line>370</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Configuration\NetworkConfig.cs" containingFunctionPresentation="Method 'InitializePrefabs'">
-            <startOffsets>
-              <option value="17922" />
-            </startOffsets>
-            <endOffsets>
-              <option value="17945" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Configuration/NetworkPrefabs.cs</url>
-          <line>88</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Configuration\NetworkPrefabs.cs" containingFunctionPresentation="Method 'Initialize'">
-            <startOffsets>
-              <option value="3508" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3526" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Core/NetworkManager.cs</url>
-          <line>1196</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Core\NetworkManager.cs" containingFunctionPresentation="Method 'Initialize'">
-            <startOffsets>
-              <option value="50513" />
-            </startOffsets>
-            <endOffsets>
-              <option value="50550" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Spawning/NetworkPrefabHandler.cs</url>
-          <line>399</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Spawning\NetworkPrefabHandler.cs" containingFunctionPresentation="Method 'RegisterPlayerPrefab'">
-            <startOffsets>
-              <option value="22788" />
-            </startOffsets>
-            <endOffsets>
-              <option value="22839" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Core/NetworkManager.cs</url>
-          <line>219</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Core\NetworkManager.cs" containingFunctionPresentation="Method 'SetSessionOwner'">
-            <startOffsets>
-              <option value="8885" />
-            </startOffsets>
-            <endOffsets>
-              <option value="8932" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/ConnectionApprovedMessage.cs</url>
-          <line>247</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Messaging\Messages\ConnectionApprovedMessage.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="10143" />
-            </startOffsets>
-            <endOffsets>
-              <option value="10200" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Connection/NetworkConnectionManager.cs</url>
-          <line>781</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Connection\NetworkConnectionManager.cs" containingFunctionPresentation="Method 'HandleConnectionApproval'">
-            <startOffsets>
-              <option value="33555" />
-            </startOffsets>
-            <endOffsets>
-              <option value="33598" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Library/PackageCache/com.unity.netcode.gameobjects@630e7e2ae1c2/Runtime/Messaging/Messages/SessionOwnerMessage.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\UnityProjects\2024Task\Library\PackageCache\com.unity.netcode.gameobjects@630e7e2ae1c2\Runtime\Messaging\Messages\SessionOwnerMessage.cs" containingFunctionPresentation="Method 'Handle'">
-            <startOffsets>
-              <option value="629" />
-            </startOffsets>
-            <endOffsets>
-              <option value="686" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="18" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
