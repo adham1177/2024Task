@@ -21,7 +21,6 @@ namespace _Project.Scripts.UI.SessionsPanel
 
         public void Init(SessionData sessionData)
         {
-            Debug.Log(sessionData.ID);
             _sessionId = sessionData.ID;
             sessionNameText.text = sessionData.Name;
             numberOfPlayersText.text = sessionData.NumberOfPlayers.ToString();

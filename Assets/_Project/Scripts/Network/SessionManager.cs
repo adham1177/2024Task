@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using _Project.Scripts.Shared.Sessions.Data;
 using _Project.Scripts.Shared.Sessions.Events;
+using Unity.Netcode;
 using Unity.Services.Authentication;
 using Unity.Services.Core;
 using Unity.Services.Multiplayer;
@@ -22,12 +23,15 @@ namespace _Project.Scripts.Network
                 Debug.Log($"Active session: {_activeSession}");
             }
         }
+
+        [SerializeField] private NetworkObject teamSync;
         
         [Header("Events")]
         [SerializeField] private SessionCreateRequestedEvent createRequestedEvent;
         [SerializeField] private SessionJoinRequestedEvent joinRequestedEvent;
         [SerializeField] private SessionRefreshRequestedEvent refreshRequestedEvent;
         [SerializeField] private SessionListUpdatedEvent sessionListUpdatedEvent;
+        [SerializeField] private SessionStartedEvent sessionStartedEvent;
 
         private const string PlayerNamePropertyKey = "playerName";
 
@@ -59,21 +63,7 @@ namespace _Project.Scripts.Network
         {
             QuerySessions().GetAwaiter();
         }
-
-
-        private async void Start()
-        {
-            try
-            {
-                await UnityServices.InitializeAsync(); // Initialize Unity Gaming Services SDKs.
-                await AuthenticationService.Instance.SignInAnonymouslyAsync(); // Anonymously authenticate the player
-                Debug.Log($"Sign in anonymously succeeded! PlayerID: {AuthenticationService.Instance.PlayerId}");
-            }
-            catch (Exception e)
-            {
-                Debug.LogException(e);
-            }
-        }
+        
         
         private async Task<Dictionary<string, PlayerProperty>> GetPlayerProperties() {
             // Custom game-specific properties that apply to an individual player, ie: name, role, skill level, etc.
@@ -82,25 +72,46 @@ namespace _Project.Scripts.Network
             return new Dictionary<string, PlayerProperty> { { PlayerNamePropertyKey, playerNameProperty } };
         }
 
-        private async Task StartSessionAsHost(string sessionName) {
-            var playerProperties = await GetPlayerProperties(); 
+        private async Task StartSessionAsHost(string sessionName) 
+        {
+            try
+            {
+                var playerProperties = await GetPlayerProperties(); 
         
-            var options = new SessionOptions {
-                MaxPlayers = 4,
-                IsLocked = false,
-                IsPrivate = false,
-                PlayerProperties = playerProperties,
-                Name = sessionName
-            }.WithRelayNetwork();
+                var options = new SessionOptions {
+                    MaxPlayers = 4,
+                    IsLocked = false,
+                    IsPrivate = false,
+                    PlayerProperties = playerProperties,
+                    Name = sessionName
+                }.WithRelayNetwork();
         
-            ActiveSession = await MultiplayerService.Instance.CreateSessionAsync(options);
+                ActiveSession = await MultiplayerService.Instance.CreateSessionAsync(options);
 
-            Debug.Log($"Session {ActiveSession.Id} created! Join code: {ActiveSession.Code}");
+                Debug.Log($"Session {ActiveSession.Id} created! Join code: {ActiveSession.Code}");
+                sessionStartedEvent?.Raise();
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
 
-        private async Task JoinSessionById(string sessionId) {
-            ActiveSession = await MultiplayerService.Instance.JoinSessionByIdAsync(sessionId);
-            Debug.Log($"Session {ActiveSession.Id} joined!");
+        private async Task JoinSessionById(string sessionId) 
+        {
+            try
+            {
+                ActiveSession = await MultiplayerService.Instance.JoinSessionByIdAsync(sessionId);
+                Debug.Log($"Session {ActiveSession.Id} joined!");
+                sessionStartedEvent?.Raise();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
         }
         
         
